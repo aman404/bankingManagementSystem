@@ -1,0 +1,90 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+body
+{
+    background-image: url('bank.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container_outer
+{
+    width: 55%;
+    min-width: 400px;
+    margin: auto;
+    min-height: 100vh;
+    background-color: rgba(138, 43, 226, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container_inner
+{
+    padding: 100px 0px;
+    max-width: 40%;
+    min-width: 360px;
+    width: 1000px;
+    height: 600px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom,rgb(122, 37, 201) , rgb(97, 0, 97));
+    box-shadow: 3px 3px 7px black;
+    position: relative;
+    color: white;
+}
+.container_inner *
+{
+    margin: 10px;
+} 
+
+.initial
+{
+    width:40px;
+    height: 50px;
+    border-radius:50px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 32px;
+    padding: 0px;
+    background-color: darkmagenta;
+    color: white;
+    margin-bottom: 30px;
+}
+ul
+{
+    list-style-type: none;
+}
+.container_inner ul.home li
+{
+    margin: 10px;
+    border: 1px solid black;
+    padding: 7px 15px;
+    background-color: rgb(117, 12, 117);
+}
+.container_inner ul.home li:hover
+{
+    box-shadow: 1px 1px 3px black;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+input
+{
+    font-size: 18px;
+    padding: 5px;
+    text-align: left;
+}
+ul.details li
+{
+    text-align: left;
+    padding: 5px 25px;
+}
